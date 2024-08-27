@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Note</string>
+
+    <string name="add">增加</string>
+    <string name="delete">删除</string>
+    <string name="update">修改</string>
+    <string name="query">查询</string>
+
+    <string name="sure">确定</string>
+    <string name="cancle">取消</string>
+
+
+    <string name="title">分组记录</string>
+    <string name="input">请输入内容</string>
+    <string name="title_dialog">输入标题</string>
+    <string name="title_content">内容详情</string>
+
+    <string name="hide">隐藏</string>
+    <string name="anser">答案</string>
+
+</resources>

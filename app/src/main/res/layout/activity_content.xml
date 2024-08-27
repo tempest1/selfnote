@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.yqsj.selfnote.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@color/blue">
+
+        <Button
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:background="@mipmap/back"
+            android:id="@+id/back"
+            android:layout_width="35dp"
+            android:layout_height="35dp" />
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_content"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:id="@+id/textView" />
+
+        <Button
+            android:background="@mipmap/changes"
+
+            android:id="@+id/change"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="70dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <Button
+            android:layout_centerVertical="true"
+            android:id="@+id/hide"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="20dp"
+            android:background="@mipmap/show"
+     />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/jump"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@mipmap/jump"
+            android:backgroundTint="@color/blue"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="35dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/white"
+            android:padding="10dp"
+            android:elevation="4dp" />
+
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@mipmap/add"
+            android:backgroundTint="@color/blue"
+
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="50dp"
+            android:layout_marginEnd="35dp"
+            android:textColor="@color/white"
+            android:padding="10dp"
+            android:elevation="4dp" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <!-- 右下角的按钮 -->
+    </RelativeLayout>
+
+</LinearLayout>
